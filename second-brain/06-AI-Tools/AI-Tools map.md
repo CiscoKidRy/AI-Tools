@@ -25,5 +25,6 @@ Local: `~/dev/AI-Tools`
 - [[How this second brain works]]  
 - [[Constitution and sync]]  
 - [[Recommended plugins]]  
+- [[Dropbox connection]]  
 - [[07-People/Index|People CRM]]  
 - [[Home]]  

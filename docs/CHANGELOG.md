@@ -1,5 +1,10 @@
 # AI-Tools changelog
 
+## 2026-08-06 — Dropbox connection runbook
+- `docs/dropbox-connection.md` — how agents connect via rclone (no secrets)
+- `skills/dropbox/SKILL.md` + `rules/20-dropbox.md`
+- Second-brain note: Dropbox connection
+
 ## 2026-08-06 — Second brain + constitution foundation
 
 ### Agent constitution (tool-agnostic)
