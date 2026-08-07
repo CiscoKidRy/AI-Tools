@@ -28,5 +28,6 @@
   "workspaces": true,
   "random-note": true,
   "slash-command": true,
-  "zk-prefixer": false
+  "zk-prefixer": false,
+  "publish": false
 }
