@@ -18,7 +18,7 @@ Local clone: **`~/dev/AI-Tools`**. Remote: **`origin` → CiscoKidRy/AI-Tools** 
 
 ### Sync duties (agents must follow)
 1. Treat **AI-Tools `rules/`** as the master for durable, tool-agnostic policy. Do not invent a parallel long-lived constitution only inside one product.
-2. After improving global rules, skills, workflows, prompts, or second-brain notes that belong in the vault, **update files under `~/dev/AI-Tools`**, then **commit and push** (or offer to) so GitHub stays current.
+2. After improving global rules, skills, workflows, prompts, or second-brain notes that belong in the vault, **update files under `~/dev/AI-Tools`**, then **commit and push** so GitHub stays current. For **`second-brain/`** specifically, auto-sync is enabled: run `scripts/sync-second-brain.sh sync` after note changes (see `rules/40-second-brain-auto-sync.md`)—do not wait for a separate “please push” unless the script fails.
 3. When changing local tool configs (e.g. `~/.grok/rules/`), **mirror the same change into AI-Tools `rules/`** (and vice versa if the vault was updated first). Prefer vault → local when they diverge, unless the user says otherwise.
 4. Keep the **Obsidian second brain** (`second-brain/`) in the same commits when related tooling or knowledge changes—tools and notes travel together.
 5. Never force-push `main` without explicit user confirmation. Never commit secrets.

@@ -23,4 +23,18 @@ Configured for **CiscoKidRy/AI-Tools** using current common practice (BASB CODE+
 1. Install Obsidian.  
 2. Open `…/AI-Tools/second-brain` as vault.  
 3. Trust the folder if macOS prompts.  
-4. Optional: enable community plugins later from the recommended list.
+4. Install auto-sync so notes push/pull with GitHub:
+
+```bash
+cd ~/dev/AI-Tools
+./scripts/install-second-brain-autosync.sh install
+```
+
+5. Optional: enable community plugins later from the recommended list.
+
+## Multi-machine sync
+
+Git is the sync plane (no paid Obsidian Sync required).  
+`scripts/sync-second-brain.sh` commits **only** `second-brain/`, pushes to `main`, and opens a PR+auto-merge if a direct push is rejected.  
+Background: macOS launchd every ~3 minutes (covers Obsidian UI edits).  
+Agents: run the same script immediately after note edits (`rules/40-second-brain-auto-sync.md`).

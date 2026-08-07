@@ -7,6 +7,8 @@ Canonical **AI-tool-agnostic** vault of agent rules, skills, workflows, prompts,
 - No build step for markdown-first content.
 - Sync rules to Grok: `./scripts/sync-rules-to-local.sh`
 - Promote local Grok rules into vault: `./scripts/sync-from-local-rules.sh`
+- Second-brain multi-machine sync: `./scripts/sync-second-brain.sh sync` (auto via launchd + agent rule `40-second-brain-auto-sync`)
+- Install second-brain timer: `./scripts/install-second-brain-autosync.sh install`
 - End-of-session learning capture: skill **`Retrospective`** (`skills/Retrospective/`) — AI-tool-agnostic; propose skills/rules then write only after approval
 - Requirements discovery: skill **`plan-interview`** (`skills/plan-interview/`) — quality gates to 95%+; loads **`grounding-discipline`** at start and emits a Grounding Report at end
 - Claim hygiene: skill **`grounding-discipline`** (`skills/grounding-discipline/`) — no silent assumptions/hallucinations; FACT/ASSUMPTION/INFERENCE/UNKNOWN + end report
