@@ -14,9 +14,10 @@ Agents use **rclone** for list/upload/download/sync against Dropbox without rely
 | Item | Value |
 |------|--------|
 | Binary | `~/.local/bin/rclone` (also on `PATH` via `~/.zshrc`) |
-| Remote name (convention) | `dropbox` |
+| Remote name (this machine) | **`Dropbox`** (capital D) |
 | Config file (local only) | `~/.config/rclone/rclone.conf` |
 | Docs | https://rclone.org/dropbox/ |
+| Status | Connected (OAuth completed 2026-08-06) |
 
 ### Credentials location (this user)
 
@@ -57,31 +58,31 @@ rclone authorize "dropbox"
 ### Verify connection
 
 ```bash
-rclone about dropbox:
-rclone lsd dropbox:
-rclone ls dropbox: --max-depth 1
+rclone about Dropbox:
+rclone lsd Dropbox:
+rclone ls Dropbox: --max-depth 1
 ```
 
 ### Common agent commands
 
 ```bash
 # List
-rclone lsf dropbox:path/to/folder
+rclone lsf Dropbox:path/to/folder
 
 # Copy local → Dropbox
-rclone copy /local/path dropbox:remote/path -P
+rclone copy /local/path Dropbox:remote/path -P
 
 # Copy Dropbox → local
-rclone copy dropbox:remote/path /local/path -P
+rclone copy Dropbox:remote/path /local/path -P
 
 # Sync (careful: can delete)
-rclone sync /local/path dropbox:remote/path -P --dry-run
+rclone sync /local/path Dropbox:remote/path -P --dry-run
 ```
 
 ### If auth fails / token expired
 
 ```bash
-rclone config reconnect dropbox:
+rclone config reconnect Dropbox:
 # or delete remote and re-run `rclone config`
 ```
 

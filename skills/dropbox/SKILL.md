@@ -10,15 +10,15 @@ Read and follow: `docs/dropbox-connection.md` in the AI-Tools repo (`~/dev/AI-To
 
 ## Defaults
 - CLI: `rclone` at `~/.local/bin/rclone`
-- Remote name: `dropbox`
+- Remote name: `Dropbox`
 - Config (local secrets): `~/.config/rclone/rclone.conf` — **never commit**
 
 ## Quick path
 1. Ensure rclone on PATH  
-2. `rclone listremotes` → need `dropbox:`  
+2. `rclone listremotes` → need `Dropbox:`  
 3. If missing: run interactive setup from the runbook (browser OAuth)  
 4. User logs in with **macOS Passwords app → Dropbox** entry (agent does not read Passwords.app)  
-5. Verify: `rclone lsd dropbox:`  
+5. Verify: `rclone lsd Dropbox:`  
 6. Then copy/ls/sync as requested  
 
 ## Never
