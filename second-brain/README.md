@@ -33,6 +33,7 @@ Read: `06-AI-Tools/How this second brain works.md` after open.
 | `04-Archive/` | Inactive |
 | `05-Daily/` | Daily notes |
 | `06-AI-Tools/` | Meta + AI tooling |
+| `07-People/` | Personal CRM (facts, related projects) |
 | `Templates/` | Note skeletons |
 | `Attachments/` | Media |
 | `.obsidian/` | App config (synced) |

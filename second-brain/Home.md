@@ -27,20 +27,22 @@ Second brain for **CiscoKidRy** · vault inside [AI-Tools](https://github.com/Ci
 | 📦 [[04-Archive/Index\|Archive]] | Inactive |
 | 📅 [[05-Daily/Index\|Daily]] | Journal + priorities |
 | 🛠 [[06-AI-Tools/AI-Tools map\|AI-Tools]] | Constitution, tooling, meta |
+| 👤 [[07-People/Index\|People]] | Personal CRM — facts, projects, history |
 
 ## Quick capture checklist
 
 - [ ] Idea → Inbox or daily note  
 - [ ] Active work → Project note  
 - [ ] Standing duty → Area note  
+- [ ] Person / relationship facts → People note  
 - [ ] Reference / learning → Resource or Atomic idea  
 - [ ] Done → Archive  
 
 ## Templates
 
 - [[Templates/Daily note]] · [[Templates/Project]] · [[Templates/Area]]  
-- [[Templates/Atomic idea]] · [[Templates/Meeting]] · [[Templates/Resource]]  
-- [[Templates/Weekly review]]  
+- [[Templates/Person]] · [[Templates/Meeting]] · [[Templates/Atomic idea]]  
+- [[Templates/Resource]] · [[Templates/Weekly review]]  
 
 ## Git sync
 

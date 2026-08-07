@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path:07-People",
+      "color": {
+        "a": 1,
+        "rgb": 15237650
+      }
     }
   ],
   "collapse-display": false,

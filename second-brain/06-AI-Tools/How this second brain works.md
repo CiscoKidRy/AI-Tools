@@ -41,8 +41,19 @@ Plus operational folders:
 | `00-Inbox/` | Capture landing zone |
 | `05-Daily/` | Journal + daily priorities (CODE capture surface) |
 | `06-AI-Tools/` | Meta: this vault, constitution, AI tooling |
+| `07-People/` | **Personal CRM** — one note per person (facts, prefs, linked projects) |
 | `Templates/` | Note skeletons |
 | `Attachments/` | Images / binary embeds |
+
+### People (personal CRM)
+
+Relationships cut across projects, so they get their own bucket—not a PARA folder.
+
+- **One note per person** in `07-People/`  
+- Store durable **facts**, preferences, open loops, and **links to projects/meetings**  
+- After a meeting: update both the person note and the project note  
+- Template: [[Templates/Person]] · index: [[07-People/Index]]  
+- Privacy: never put passwords or secrets you shouldn’t keep in a git-backed vault  
 
 Notes **move** as life changes (project → archive is normal). Links keep surviving the move if you use `[[wikilinks]]` (this vault has “Always update links” on).
 
@@ -74,9 +85,9 @@ Template: [[Templates/Atomic idea]]
 - Link while thinking (`[[`) when a connection is obvious  
 
 ### Evening or weekly process (10–20 min)
-1. Empty **Inbox** → Project / Area / Resource / Archive / delete  
+1. Empty **Inbox** → Project / Area / Resource / **People** / Archive / delete  
 2. Distill any long captures (highlight what you’d want in 6 months)  
-3. Update project status  
+3. Update project status and any person notes you interacted with  
 4. **Git commit + push** from `~/dev/AI-Tools` when notes or tools changed  
 
 ```bash

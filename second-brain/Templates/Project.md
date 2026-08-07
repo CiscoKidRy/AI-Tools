@@ -25,6 +25,7 @@ What “done” looks like:
 
 ## Related
 - Area: 
+- People: 
 - Resources: 
 - Atomic ideas: 
 

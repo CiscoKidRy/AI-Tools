@@ -26,4 +26,7 @@ tags:
 
 ## Links
 - Project: 
+- People: [[07-People/]]  
 - Follow-ups: 
+
+<!-- After the meeting: update each person note under 07-People/ -->
