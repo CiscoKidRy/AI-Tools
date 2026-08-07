@@ -17,7 +17,7 @@ Agents use **rclone** for list/upload/download/sync against Dropbox without rely
 | Remote name (this machine) | **`Dropbox`** (capital D) |
 | Config file (local only) | `~/.config/rclone/rclone.conf` |
 | Docs | https://rclone.org/dropbox/ |
-| Status | Connected (OAuth completed 2026-08-06) |
+| Status | Connected (OAuth 2026-08-06; chat-exposed tokens revoked by user — reconnect if auth fails) |
 
 ### Credentials location (this user)
 
