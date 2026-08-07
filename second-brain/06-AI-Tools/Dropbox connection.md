@@ -23,10 +23,12 @@ Skill: `skills/dropbox/SKILL.md`
 | Remote name | `dropbox` |
 | Config | `~/.config/rclone/rclone.conf` (local only) |
 | Binary | `~/.local/bin/rclone` |
+| Login (email/password) | **macOS Passwords app** → entry **Dropbox** (autofill in OAuth browser; never paste into vault notes) |
 
 ## Status
-- [ ] rclone installed  
-- [ ] remote `dropbox:` authorized (browser OAuth once)  
+- [x] rclone installed  
+- [x] Password location known (Passwords app → Dropbox)  
+- [ ] remote `dropbox:` authorized (browser OAuth once — use Passwords autofill)  
 - [ ] `rclone lsd dropbox:` works  
 - [ ] Optional: Dropbox desktop app + local folder  
 

@@ -17,9 +17,11 @@ Read and follow: `docs/dropbox-connection.md` in the AI-Tools repo (`~/dev/AI-To
 1. Ensure rclone on PATH  
 2. `rclone listremotes` → need `dropbox:`  
 3. If missing: run interactive setup from the runbook (browser OAuth)  
-4. Verify: `rclone lsd dropbox:`  
-5. Then copy/ls/sync as requested  
+4. User logs in with **macOS Passwords app → Dropbox** entry (agent does not read Passwords.app)  
+5. Verify: `rclone lsd dropbox:`  
+6. Then copy/ls/sync as requested  
 
 ## Never
 - Commit tokens or `rclone.conf`
-- Print full OAuth tokens into chat or notes
+- Print full OAuth tokens or Passwords-app secrets into chat or notes
+- Scrape or dump the macOS Passwords / Keychain Dropbox password into memory files

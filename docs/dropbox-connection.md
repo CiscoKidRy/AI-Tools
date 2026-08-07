@@ -18,6 +18,15 @@ Agents use **rclone** for list/upload/download/sync against Dropbox without rely
 | Config file (local only) | `~/.config/rclone/rclone.conf` |
 | Docs | https://rclone.org/dropbox/ |
 
+### Credentials location (this user)
+
+| Item | Where |
+|------|--------|
+| Dropbox **login** (email/password) | **macOS Passwords app**, entry titled **Dropbox** |
+| Dropbox **API token** after connect | `~/.config/rclone/rclone.conf` only (never git) |
+
+**Important:** rclone does **not** take the Passwords-app password as a CLI flag. Dropbox uses **browser OAuth**. During that browser step, unlock Passwords and autofill the Dropbox entry (or paste once). Agents must **not** read or store that password in memory/git/chat.
+
 ### One-time setup (interactive — needs browser)
 
 ```bash
@@ -34,7 +43,7 @@ Interactive answers (typical):
 3. Storage: `dropbox` (type number from list)  
 4. `client_id` / `client_secret` — leave blank for rclone defaults (OK for personal use)  
 5. Edit advanced — `n` unless you know you need it  
-6. Auto config — **`y`** (opens browser; log into Dropbox and Allow)  
+6. Auto config — **`y`** (opens browser; sign in via **Passwords → Dropbox**, then Allow)  
 7. Team folder — usually `n` for personal  
 8. Keep as default — quit with `q`
 
