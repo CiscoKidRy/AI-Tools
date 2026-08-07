@@ -15,7 +15,7 @@ Canonical, **AI-tool-agnostic** vault for agent constitution, skills, workflows,
 | `workflows/` | Multi-agent orchestration scripts |
 | `prompts/` | Reusable prompt fragments |
 | `templates/` | Starter `AGENTS.md`, project scaffolds |
-| `second-brain/` | **Obsidian vault** (second brain; open this folder in Obsidian) |
+| `second-brain/` | **Obsidian vault** (CODE+PARA+atomic; open this folder in Obsidian; start at Home) |
 | `scripts/` | Sync helpers (`rules/` ↔ `~/.grok/rules/`) |
 | `docs/` | Design notes, counsel decisions, sync guide |
 
@@ -24,6 +24,8 @@ Canonical, **AI-tool-agnostic** vault for agent constitution, skills, workflows,
 1. Keep one **shared constitution** that is not locked to a single AI product.
 2. **Sync** local agent rule folders with `rules/` after meaningful changes.
 3. Keep the **second brain** in-repo so knowledge and tools version together on GitHub.
+
+Obsidian guide: `second-brain/06-AI-Tools/How this second brain works.md` · `docs/obsidian-second-brain.md`
 
 See `docs/sync.md` and `rules/00-constitution.md` (Mission section).
 

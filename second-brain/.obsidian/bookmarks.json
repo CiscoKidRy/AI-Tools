@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "path": "Home.md",
+      "title": "Home"
+    },
+    {
+      "type": "file",
+      "path": "00-Inbox/Welcome.md",
+      "title": "Inbox"
+    },
+    {
+      "type": "file",
+      "path": "06-AI-Tools/How this second brain works.md",
+      "title": "How this second brain works"
+    },
+    {
+      "type": "file",
+      "path": "06-AI-Tools/AI-Tools map.md",
+      "title": "AI-Tools map"
+    }
+  ]
+}

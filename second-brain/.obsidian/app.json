@@ -5,5 +5,19 @@
   "attachmentFolderPath": "Attachments",
   "showUnsupportedFiles": true,
   "strictLineBreaks": false,
-  "promptDelete": true
+  "promptDelete": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "useTab": false,
+  "tabSize": 2,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "showFrontmatter": true,
+  "propertiesInDocument": "visible"
 }

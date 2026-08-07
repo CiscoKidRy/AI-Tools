@@ -1,0 +1,32 @@
+{
+  "daily-notes": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "D"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "T"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": ["Mod", "G"],
+      "key": "G"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "P"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": ["Mod"],
+      "key": "O"
+    }
+  ]
+}

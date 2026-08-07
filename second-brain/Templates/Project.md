@@ -1,13 +1,32 @@
-# {{title}}
+---
+type: project
+status: active
+outcome: 
+deadline: 
+tags:
+  - project
+---
+
+# New note
 
 ## Outcome
--
+What “done” looks like:
 
 ## Status
-- [ ] Active
+- [ ] active
+- [ ] blocked
+- [ ] done → move to `04-Archive/`
 
-## Links
--
+## Next actions
+- [ ] 
 
-## Log
--
+## Notes / log
+
+
+## Related
+- Area: 
+- Resources: 
+- Atomic ideas: 
+
+## Definition of done
+- [ ] 

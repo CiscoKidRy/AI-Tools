@@ -1,3 +1,10 @@
+---
+type: hub
+tags:
+  - ai-tools
+  - hub
+---
+
 # AI-Tools map
 
 Canonical repo: https://github.com/CiscoKidRy/AI-Tools  
@@ -10,7 +17,12 @@ Local: `~/dev/AI-Tools`
 | `workflows/` | Multi-agent orchestration |
 | `prompts/` | Reusable prompt fragments |
 | `templates/` | Project `AGENTS.md` starters |
-| `second-brain/` | **This vault** |
+| `second-brain/` | **This Obsidian vault** |
+| `scripts/` | Sync helpers for rules ↔ `~/.grok/rules` |
 | `docs/` | Meta design notes |
 
-See also: [[Constitution and sync]]
+## Second brain entry points
+- [[How this second brain works]]  
+- [[Constitution and sync]]  
+- [[Recommended plugins]]  
+- [[Home]]  

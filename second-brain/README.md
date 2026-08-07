@@ -1,39 +1,51 @@
 # Second brain (Obsidian vault)
 
-This folder is a full **Obsidian** vault. It lives inside **AI-Tools** so personal knowledge, agent constitution context, and tooling docs version and sync together on GitHub.
+Git-backed **Obsidian** vault for CiscoKidRy. Lives inside [AI-Tools](https://github.com/CiscoKidRy/AI-Tools) so knowledge and agent tooling version together.
 
 ## Open in Obsidian
 
-1. Install [Obsidian](https://obsidian.md) if needed.
-2. **Open folder as vault** → choose:
+1. Install [Obsidian](https://obsidian.md) (already on this Mac if setup completed).  
+2. **Open folder as vault** → exactly:
 
-   ```
+   ```text
    ~/dev/AI-Tools/second-brain
    ```
 
-3. Do **not** point Obsidian at `~/dev/AI-Tools` root unless you intentionally want rules/skills mixed into the graph.
+3. Do **not** open `~/dev/AI-Tools` as the vault root unless you want rules/skills in the graph.
+
+## Method (configured)
+
+- **CODE** — Capture → Organize → Distill → Express (Forte)  
+- **PARA** — Projects / Areas / Resources / Archive by actionability  
+- **Atomic notes** — one idea, your words, `[[links]]`  
+- **Minimal plugins** — core first; optional community list in-vault  
+
+Read: `06-AI-Tools/How this second brain works.md` after open.
 
 ## Layout
 
 | Path | Purpose |
 |------|---------|
-| `00-Inbox/` | Quick capture; process later |
-| `01-Projects/` | Active efforts with an end state |
-| `02-Areas/` | Ongoing responsibilities (career, health, AI tooling, etc.) |
-| `03-Resources/` | Reference notes, how-tos, evergreen knowledge |
-| `04-Archive/` | Inactive but kept |
+| `00-Inbox/` | Capture |
+| `01-Projects/` | Finish-line work |
+| `02-Areas/` | Ongoing responsibilities |
+| `03-Resources/` | Evergreen + atomic ideas |
+| `04-Archive/` | Inactive |
 | `05-Daily/` | Daily notes |
-| `06-AI-Tools/` | Notes about this vault’s tools, agents, decisions |
-| `Templates/` | Note templates |
-| `Attachments/` | Images and binary embeds |
+| `06-AI-Tools/` | Meta + AI tooling |
+| `Templates/` | Note skeletons |
+| `Attachments/` | Media |
+| `.obsidian/` | App config (synced) |
 
-## Sync
+## Hotkeys
 
-- Vault path is git-tracked as part of **CiscoKidRy/AI-Tools**.
-- After meaningful note or tooling changes: commit and push from `~/dev/AI-Tools`.
-- Agents should keep constitution (`../rules/`) and second-brain updates **synced together** when they share the same work.
+- `⌘⇧D` daily note · `⌘⇧T` template · `⌘O` switcher · graph via `⌘G` then `G`
 
-## Privacy
+## Sync to GitHub
 
-- Do not put secrets, passwords, or live API keys in notes.
-- Prefer links and redaction over pasting credentials.
+```bash
+cd ~/dev/AI-Tools
+git add second-brain
+git commit -m "second-brain: …"
+git push
+```

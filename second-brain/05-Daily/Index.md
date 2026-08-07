@@ -1,3 +1,15 @@
+---
+type: moc
+tags:
+  - moc
+  - daily
+---
+
 # Daily notes
 
-Daily notes land in this folder (`YYYY-MM-DD.md`) via Obsidian Daily Notes.
+One note per day in this folder: `YYYY-MM-DD.md`.
+
+- Hotkey: `⌘⇧D`  
+- Template: [[Templates/Daily note]]  
+- Use as the primary **Capture** surface during the day.  
+- Promote durable ideas out to Projects / Areas / Resources.
