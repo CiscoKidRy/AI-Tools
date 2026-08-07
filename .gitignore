@@ -10,3 +10,10 @@
 .venv/
 __pycache__/
 node_modules/
+
+# Obsidian (keep vault settings; skip machine-local UI state)
+second-brain/.obsidian/workspace.json
+second-brain/.obsidian/workspace-mobile.json
+second-brain/.obsidian/cache
+second-brain/.trash/
+second-brain/.obsidian/plugins/*/data.json
