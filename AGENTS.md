@@ -7,6 +7,7 @@ Canonical **AI-tool-agnostic** vault of agent rules, skills, workflows, prompts,
 - No build step for markdown-first content.
 - Sync rules to Grok: `./scripts/sync-rules-to-local.sh`
 - Promote local Grok rules into vault: `./scripts/sync-from-local-rules.sh`
+- End-of-session learning capture: skill **`Retrospective`** (`skills/Retrospective/`) — AI-tool-agnostic; propose skills/rules then write only after approval
 - Preview structure: `find . -type f -not -path './.git/*' | sort`
 
 ## Architecture invariants

@@ -13,7 +13,7 @@ Local: `~/dev/AI-Tools`
 | Path | Role |
 |------|------|
 | `rules/` | Tool-agnostic constitution + global policies |
-| `skills/` | On-demand procedures |
+| `skills/` | On-demand procedures (includes **Retrospective**) |
 | `workflows/` | Multi-agent orchestration |
 | `prompts/` | Reusable prompt fragments |
 | `templates/` | Project `AGENTS.md` starters |
@@ -26,5 +26,6 @@ Local: `~/dev/AI-Tools`
 - [[Constitution and sync]]  
 - [[Recommended plugins]]  
 - [[Dropbox connection]]  
+- [[Retrospective skill]]  
 - [[07-People/Index|People CRM]]  
 - [[Home]]  

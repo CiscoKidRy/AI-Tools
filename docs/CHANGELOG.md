@@ -1,5 +1,10 @@
 # AI-Tools changelog
 
+## 2026-08-07 — Retrospective skill (AI-tool-agnostic)
+- `skills/Retrospective/` — end-of-session retro; propose portable skills/rules/workflows; approve-then-write to AI-Tools
+- `docs/retrospective.md`, staging `docs/retros/`
+- Host transcripts optional; conversation is primary; no vendor lock-in
+
 ## 2026-08-06 — Dropbox connection runbook
 - `docs/dropbox-connection.md` — how agents connect via rclone (no secrets)
 - `skills/dropbox/SKILL.md` + `rules/20-dropbox.md`
