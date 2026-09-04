@@ -60,6 +60,12 @@ Logs: `~/.local/log/ai-tools-second-brain-sync.log`
 
 Env knobs: `SB_SYNC_DRY_RUN=1`, `SB_SYNC_PR=1` (always open PR), `SB_SYNC_INTERVAL_SEC` (install timer).
 
+### Default Grok TUI workspace
+
+Grok uses the current directory as the project. From `$HOME` it will not load this repo’s `AGENTS.md`. On this machine, `~/.zshrc` wraps `grok` so a plain `grok` (not already inside another git repo, and without `--cwd`) starts in `~/dev/AI-Tools`. `~/.grok/config.toml` also has `[skills] paths = ["~/dev/AI-Tools/skills"]` so vault skills (including `dropbox`) load even before that wrapper is sourced.
+
+To reuse on another Mac, copy the `grok()` function from `~/.zshrc` after the grok installer block, then `source ~/.zshrc`.
+
 ### Other machines
 ```bash
 cd ~/dev/AI-Tools && git pull
